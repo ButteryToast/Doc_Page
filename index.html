@@ -13,13 +13,13 @@
         <header>
             Blender Developer Documentation
         </header>
-        <a class="nav-link" href="#">Building Blender</a>
-        <a class="nav-link" href="#">Developer Introduction</a>
-        <a class="nav-link" href="#">Source Code and Architecture</a>
-        <a class="nav-link" href="#">Tools</a>
-        <a class="nav-link" href="#">Process</a>
-        <a class="nav-link" href="#">Reference</a>
-        <a class="nav-link" href="#">Other Pages</a>
+        <a class="nav-link" href="#Building_Blender">Building Blender</a>
+        <a class="nav-link" href="#Developer_Introduction">Developer Introduction</a>
+        <a class="nav-link" href="#Source_Code_and_Architecture">Source Code and Architecture</a>
+        <a class="nav-link" href="#Tools">Tools</a>
+        <a class="nav-link" href="#Process">Process</a>
+        <a class="nav-link" href="#Reference">Reference</a>
+        <a class="nav-link" href="#Other_Pages">Other Pages</a>
     </nav>
 
     <main id="main-doc">
@@ -70,14 +70,29 @@
                 </li>
                 <li>
                     <strong>Unsupported Environment</strong>
-                    <p>While blender is portable, if you compile on a less common system, such as NetBSD, it may need minor edits to compile.</p>
-                    <p>Unless you want to spend time supporting les common development environments, it is best to use the default/standard development tools for your platform.</p>
+                    <p>While blender is portable, if you compile on a less common system, such as NetBSD, it may need minor
+                        edits to compile.</p>
+                    <p>Unless you want to spend time supporting les common development environments, it is best to use the default/standard
+                        development tools for your platform.</p>
                 </li>
             </ul>
             <h4>Reporting build problems</h4>
             <ul>
-                <li>Use the <a href="#">Maillist</a> or the <a href="#">#blendercoders IRC channel</a> to report your problem.<br>
-                If using IRC, use an <a href="https://lists.blender.org/mailman/listinfo/bf-committers">external pasting tool</a> for posting more than 5 lines of code.</li>
+                <li>
+                    <p>Use the
+                        <a href="https://lists.blender.org/mailman/listinfo/bf-committers">Maillist</a> or the
+                        <a href="irc://irc.freenode.net/blendercoders">#blendercoders IRC channel</a> to report your problem.</p>
+                    <p>If using IRC, use an
+                        <a href="http://pasteall.org/">external pasting tool</a> for posting more than 5 lines of code.</p>
+                </li>
+                <li>
+                    <p>
+                        <strong>ALWAYS</strong> include a full error log. Just saying "it failed" with 1-2 lines containing the error
+                        is not very helpful.</p>
+                    <p>To create a full error log, you will want to redirect output into a file. See:(
+                        <a href="https://stackoverflow.com/questions/13591374/command-output-redirect-to-file-and-terminal/13591423#13591423">Linux/MacOS</a>,
+                        <a href="https://stackoverflow.com/questions/1420965/redirect-windows-cmd-stdout-and-stderr-to-a-single-file/1420981#1420981">MS-Windows</a>)</p>
+                </li>
             </ul>
         </section>
         <section class="main-section" id="Developer_Introduction">
